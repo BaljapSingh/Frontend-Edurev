@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.books {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.Avail {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.button {
+  color: red;
+  background: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 0.9em;
+}
+
+.button:hover {
+  color: white;
+  background: red;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.footer {
+  color: white;
+  background: wheat;
+  width: 100vw;
+  height: 20vh;
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+}
